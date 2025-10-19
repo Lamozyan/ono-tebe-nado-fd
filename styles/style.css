@@ -3,6 +3,7 @@
     grid-template-columns: 1fr min-content 1fr;
     align-items: center;
     padding: 92px 50px 96px 50px;
+    max-height: 293px;
 }
 
 .header_menu-list {
@@ -46,11 +47,11 @@
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    
+    max-height: 757px;
 }
 
 .cover_title {
-    padding: 165px 50px 207px 50px;
+    padding: 165px 50px 146px 50px;
     width: 100%;
     color: #fff;
     font-weight: 700;
@@ -75,7 +76,7 @@
     flex-direction: row;
     width: 100%;
     justify-content: space-between;
-    padding-bottom: 50px;
+    align-items: center;
 }
 
 .subline {
@@ -167,7 +168,7 @@
 }
 
 .about {
-    min-height: 595px;
+    max-height: 595px;
     display: grid;
     grid-template-columns: 384px 1fr;
     justify-items: center;
@@ -209,7 +210,7 @@
     padding: 181px 50px 82px 50px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    
+    max-height: 180px;
 }
 
 .footer_adress {
