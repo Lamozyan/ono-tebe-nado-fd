@@ -57,6 +57,7 @@
     font-weight: 700;
     font-size: 100px;
     line-height: 114.99999999999999%;
+    letter-spacing: 17px;
 }
 
 .accent-span {
@@ -210,7 +211,6 @@
     padding: 181px 50px 82px 50px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    max-height: 180px;
 }
 
 .footer_adress {
