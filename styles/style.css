@@ -10,17 +10,20 @@
     display: flex;
     flex-direction: row;
     gap: 34px;
+}
+
+.menu-item {
     list-style: circle;
 }
 
-.header_menu-link {
-    color: black;
-    font-size: 16px;
-    line-height: 1.2;
+.menu-item_main {
+    list-style: none;
 }
 
-.header_menu-link_main {
-    list-style: none;
+.menu-link {
+    color: black;
+    font-size: 18px;
+    line-height: 1.2;
 }
 
 .header_logo {
@@ -32,11 +35,12 @@
     width: 100%;
 }
 
-.header_adress {
+.adress {
     width: 240px;
     justify-self: end;
     align-items: flex-start;
     font-style: normal;
+    font-size: 18px;
 }
 
 .cover {
@@ -47,17 +51,16 @@
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    max-height: 757px;
 }
 
 .cover_title {
-    padding: 165px 50px 146px 50px;
+    padding: 165px 0 106px 0;
     width: 100%;
     color: #fff;
     font-weight: 700;
     font-size: 100px;
-    line-height: 114.99999999999999%;
-    letter-spacing: 17px;
+    line-height: 114.9%;
+    letter-spacing: 27px;
 }
 
 .accent-span {
@@ -66,10 +69,14 @@
 
 .text-center {
     text-align: center;
+    padding-top: 20px;
+    padding-left: 30px;
 }
 
 .text-right {
     text-align: right;
+    padding-top: 20px;
+    padding-left: 613px;
 }
 
 .description {
@@ -98,6 +105,7 @@
     font-weight: 500;
     line-height: 100%;
     text-transform: uppercase;
+    cursor: pointer;
 }
 
 .lots {
@@ -117,6 +125,7 @@
     flex-direction: row;
     gap: 25px;
     list-style: none;
+    flex-wrap: wrap;
 }
 
 .frame {
@@ -127,16 +136,23 @@
     background-size: cover;
 }
 
-.frame_first {
+.frame_film {
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/card-lot-01.jpg);
 }
 
-.frame_second {
+.frame_book {
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/card-lot-02.jpg);
 }
 
-.frame_third {
+.frame_picture {
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/card-lot-03.jpg);
+}
+
+.frame_article {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    min-height: 596px;
 }
 
 .frame_title {
@@ -147,21 +163,22 @@
     color: #fff;
     text-decoration: underline;
     text-transform: uppercase;
-    height: 100%;
 }
 
-.article {
+.frame_text {
     padding: 0 40px 48px 40px;
+    color: #fff;
     font-weight: 400;
     font-size: 20px;
     line-height: 120%;
     text-decoration: none;
-    height: 100%;
+    margin-top: auto;
 }
 
 .more {
-    padding-left: 40px;
-    padding-top: 30px;
+    display: block;
+    margin-left: 40px;
+    margin-top: 30px;
     font-weight: 400;
     font-size: 20px;
     line-height: 100%;
@@ -213,17 +230,13 @@
     grid-template-columns: 1fr 1fr 1fr;
 }
 
-.footer_adress {
-    width: 264.573486328125px;
-    justify-self: start;
-    font-style: normal;
-}
-
 .footer_menu-list {
     display: flex;
     flex-direction: column;
     list-style: none;
     align-items: center;
+    font-size: 18px;
+    font-family: Raleway, sans-serif;
 }
 
 .socials {
